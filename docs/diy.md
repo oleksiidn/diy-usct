@@ -26,11 +26,11 @@ High overview located in [Sandbox documentation](https://govstack.gitbook.io/san
 2. Use next commands to up and run application.
 
 ```shell
-helm install usct ./diy-helm/ --create-namespace --namespace usct
+helm install usct ./charts/ --create-namespace --namespace usct
 ```
 
 ```shell
-helm upgrade --install usct ./diy-helm/ --create-namespace --namespace usct
+helm upgrade --install usct ./charts/ --create-namespace --namespace usct
 ```
 
 ```shell
